@@ -1,7 +1,7 @@
 {
   "Name": "Azure.Storage.Blobs",
-  "Version": "12.18.0-alpha.20230731.1",
-  "DevVersion": "12.18.0-alpha.20230731.1",
+  "Version": "12.18.0-alpha.20230731.2",
+  "DevVersion": "12.18.0-alpha.20230731.2",
   "DirectoryPath": "sdk/storage/Azure.Storage.Blobs",
   "ServiceDirectory": "storage",
   "ReadMePath": "sdk/storage/Azure.Storage.Blobs/README.md",

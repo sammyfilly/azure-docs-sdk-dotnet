@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: dotnet
 ms.service: storage
 ---
-# Azure Storage Data Movement Blobs client library for .NET - version 12.0.0-alpha.20230731.1 
+# Azure Storage Data Movement Blobs client library for .NET - version 12.0.0-alpha.20230731.2 
 
 
 > Server Version: 2020-04-08, 2020-02-10, 2019-12-12, 2019-07-07, and 2020-02-02
