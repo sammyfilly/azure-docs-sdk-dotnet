@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: dotnet
 ms.service: communication
 ---
-# Azure Communication CallAutomation client library for .NET - version 1.1.0-alpha.20230807.3 
+# Azure Communication CallAutomation client library for .NET - version 1.1.0-alpha.20230807.4 
 
 
 This package contains a C# SDK for Azure Communication Call Automation.
@@ -98,11 +98,11 @@ public IActionResult OnMidConnectionCallBackEvent([FromBody] CloudEvent[] events
                     # cast the event into a ParticipantUpdated event and do something with it. Eg. iterate through the participants
                     ParticipantsUpdated updatedEvent = (ParticipantsUpdated)ev;
                     break;
-                case AddParticipantSucceeded ev:
-                    # logic to handle an AddParticipantSucceeded event
+                case AddParticipantsSucceeded ev:
+                    # logic to handle an AddParticipantsSucceeded event
                     break;
-                case AddParticipantFailed ev:
-                    # logic to handle an AddParticipantFailed event
+                case AddParticipantsFailed ev:
+                    # logic to handle an AddParticipantsFailed event
                     break;
                 case CallTransferAccepted ev:
                     # logic to handle CallTransferAccepted event
@@ -166,10 +166,10 @@ CancellationToken token = cts.Token;
 try
 {
     // this will wait until CreateCall is completed or Timesout!
-    CreateCallEventResult eventResult = await createCallResult.WaitForEventProcessorAsync(token);
+    CreateCallEventResult eventResult = await createCallResult.WaitForEventAsync(token);
 
     // Once this is recieved, you know the call is now connected.
-    CallConnected returnedEvent = eventResult.SuccessResult;
+    CallConnected returnedEvent = eventResult.SuccessEvent;
 
     // ...Do more actions, such as Play or AddParticipant, since the call is established...
 }
