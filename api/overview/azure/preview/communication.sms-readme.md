@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: dotnet
 ms.service: communication
 ---
-# Azure Communication SMS client library for .NET - version 1.0.2-alpha.20230807.2 
+# Azure Communication SMS client library for .NET - version 1.0.2-alpha.20230807.3 
 
 
 This package contains a C# SDK for Azure Communication Services for SMS and Telephony.
