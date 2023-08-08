@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: dotnet
 ms.service: core
 ---
-# Azure Core AMQP shared client library for .NET - version 1.4.0-alpha.20230808.1 
+# Azure Core AMQP shared client library for .NET - version 1.4.0-alpha.20230808.3 
 
 
 Azure.Core.Amqp contains AMQP primitives. 
