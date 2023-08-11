@@ -48,7 +48,7 @@
         - Microsoft.Azure.Management.HealthcareApis
         - Microsoft.Azure.Management.HealthcareApis.Models
         landingPageType: Service
-  - name: API Management
+  - name: Api Management
     href: ~/api/overview/azure/latest/api-management.md
     landingPageType: Service
     items:
@@ -404,7 +404,7 @@
       - Microsoft.Azure.CognitiveServices.AnomalyDetector
       - Microsoft.Azure.CognitiveServices.AnomalyDetector.Models
       landingPageType: Service
-    - name: Content Moderator
+    - name: Content Safety
       children:
       - Microsoft.Azure.CognitiveServices.ContentModerator
       - Microsoft.Azure.CognitiveServices.ContentModerator.Models
@@ -468,6 +468,10 @@
       - Microsoft.CognitiveServices.Speech.Transcription
       - Microsoft.CognitiveServices.Speech.Translation
       landingPageType: Service
+    - name: Speech Remote Conversation
+      children:
+      - Microsoft.CognitiveServices.Speech.RemoteMeeting
+      landingPageType: Service
     - name: Speech Xamarin iOS
       children:
       - Azure.AI.Vision.Core.Internal
@@ -528,6 +532,7 @@
       href: ~/api/overview/azure/latest/communication.phonenumbers-readme.md
       children:
       - Azure.Communication.PhoneNumbers
+      - Azure.Communication.PhoneNumbers.SipRouting
     - name: Communication Rooms
       href: ~/api/overview/azure/latest/communication.rooms-readme.md
       children:
@@ -2607,6 +2612,7 @@
       href: ~/api/overview/azure/latest/data.schemaregistry-readme.md
       children:
       - Azure.Data.SchemaRegistry
+      - Azure.Data.SchemaRegistry.Serialization
     - name: Schema Registry - Avro
       href: ~/api/overview/azure/latest/microsoft.azure.data.schemaregistry.apacheavro-readme.md
       children:
